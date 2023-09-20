@@ -1,0 +1,68 @@
+button.btn-update {
+    background-color:#19105B;
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  button.btn-delete {
+    background-color: #FF6196;
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the Add Event button */
+  button.btn-add {
+    background-color: #FF6196;
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the accordion button (if needed) */
+  button.accordion-button-custom {
+    background-color: #19105B !important;
+    color: #fff !important;
+  }
+  
+  button.accordion-button-custom.collapsed {
+    background-color: #19105B !important;
+    color: #fff !important;
+  }
+
+  .user-container {
+    position: relative;
+  }
+
+  .accordion-button-custom {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    background-color: white;
+  }
+  
+  .users-table-container {
+    max-height: calc(100vh - 200px); /* Adjust the value based on your design */
+    overflow-y: auto;
+  }
+  
+  /* Add this style to the "Add Project" button */
+  .btn-add {
+    position: sticky;
+    bottom: 16px; /* Adjust the margin as needed */
+    z-index: 2;
+    background-color: white;
+  }
+
+  
+
+  

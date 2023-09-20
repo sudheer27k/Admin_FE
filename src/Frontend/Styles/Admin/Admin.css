@@ -1,0 +1,80 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: transparent; /* Remove background color */
+}
+
+h1 {
+    text-align: center;
+    color: #19105B; /* Heading text color */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap to the next line */
+    justify-content: space-between;
+}
+
+label {
+    flex-basis: calc(50% - 10px); /* Set label width for two labels per row */
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #19105B; /* Label text color */
+}
+
+input,
+textarea {
+    flex-basis: calc(50% - 10px); /* Set input width for two inputs per row */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #19105B; /* Text color */
+}
+
+/* Clear the float for every 2 elements to maintain proper alignment */
+.clear {
+    clear: both;
+}
+
+/* Add spacing between rows */
+.row-spacing {
+    margin-bottom: 10px;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    background-color: #19105B;
+    color: #FFE5EE; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    label,
+    input,
+    textarea {
+        flex-basis: 100%; /* Set to full width on smaller screens */
+    }
+
+    .row-spacing {
+        margin-bottom: 5px; /* Reduce row spacing */
+    }
+}
